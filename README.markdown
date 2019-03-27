@@ -15,7 +15,7 @@ In your `Rakefile`:
 ```ruby
 require 'git-dirty'
 git_dirty_file 'tmp/git-status'
-````
+```
 
 Now you will have a new rake target for `tmp/git-status`, which will be updated whenever the contents of that file differ from the actual status.
 
