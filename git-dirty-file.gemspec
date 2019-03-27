@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Rake task to record the git status in a separate file.}
   spec.description   = %q{This gem provides a Rake task that records the git status in a separate file, which can then be included, e.g. as part of a file-based build process.}
   spec.license       = "MIT"
+  spec.homepage      = "https://github.com/suhlig/git-dirty"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
